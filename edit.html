@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+<ul>
+<li>Home
+<ul>
+<li>Submenu item 1.1</li>
+<li>Submenu item 1.2</li>
+<li>Submenu item 1.3</li>
+</ul>
+</li>
+<li>Menu item 2
+<ul>
+<li>Submenu item 2.1</li>
+<li>Submenu item 2.2</li>
+<li>Submenu item 2.3</li>
+</ul>
+</li>
+<li>Menu item 3
+<ul>
+<li>Submenu item 3.1</li>
+<li>Submenu item 3.2</li>
+<li>Submenu item 3.3</li>
+</ul>
+</li>
+</ul>
+</nav>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="heo">
+        <h1>Hi, I am [Your Name]</h1>
+        <p>A Computer Science student building skills in web development and design.</p>
+    </section>r
+
+    <!-- PROJECT PAGE -->
+    <section id="projects" class="page-section">
+        <h1>Projects</h1>
+        <p>These are placeholder projects that will be replaced with real work later.</p>
+
+        <div class="projects-grid">
+            <article class="project-card tall">
+                <img src="https://via.placeholder.com/600x400" alt="">
+                <h2>Web App Concept</h2>
+                <p>Placeholder description for a future web project.</p>
+            </article>
+
+            <article class="project-card wide">
+                <img src="https://via.placeholder.com/800x300" alt="">
+                <h2>Data Visualisation</h2>
+                <p>Placeholder for a dashboard or analytics project.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="">
+                <h2>Mobile App UI</h2>
+                <p>Placeholder for a mobile interface project.</p>
+            </article>
+
+            <article class="project-card">
+                <img src="https://via.placeholder.com/400x300" alt="">
+                <h2>Game Prototype</h2>
+                <p>Placeholder for a simple game project.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section id="contact" class="page-section">
+        <h1>Contact Me</h1>
+
+        <div class="contact-layout">
+            <div class="contact-info">
+                <h2>My Details</h2>
+                <p><strong>Email:</strong> yourname@example.com</p>
+                <p><strong>Location:</strong> Northampton, UK</p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+                    <label>Name:</label>
+                    <input type="text" name="Name" required>
+
+                    <label>Email:</label>
+                    <input type="email" name="Email" required>
+
+                    <label>Message:</label>
+                    <textarea name="Message" rows="5" required></textarea>
+
+                    <button type="submit">Send Email</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO DEMO PAGE -->
+    <section id="video" class="page-section">
+        <h1>Video Demonstration</h1>
+        <p>This video explains the features of my portfolio.</p>
+
+        <div class="video-wrapper">
+            <iframe 
+                src="https://www.youtube.com/embed/VIDEO_ID"
+                title="Video Demo"
+                allowfullscreen>
+            </iframe>
+
+            <p>Direct link:  
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
+                    https://www.youtube.com/watch?v/VIDEO_ID
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- REPORT PAGE -->
+    <section id="report" class="page-section">
+        <h1>Development Report</h1>
+
+        <h2>Reflection</h2>
+        <p>
+            Write your 250+ word reflection here about learning HTML, CSS, debugging,
+            design choices, challenges, and improvements over time.
+        </p>
+
+        <h2>Design Decisions</h2>
+        <p>
+            Explain why you chose your colours, fonts, layout, and what websites inspired you.
+        </p>
+
+        <h2>Validation Screenshots</h2>
+        <div class="validation-images">
+            <img src="images/html-validation.png" alt="HTML validation">
+            <img src="images/css-validation.png" alt="CSS validation">
+        </div>
+
+        <h2>Video URL</h2>
+        <p>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
+                https://www.youtube.com/watch?v=VIDEO_ID
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2024 [Your Name] | Computer Science Portfolio</p>
+</footer>
+
+</body>
+</html>
